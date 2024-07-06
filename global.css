@@ -1,0 +1,31 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+:root {
+    
+    /* fonts */
+    --font-inter: Inter;
+    
+    /* font sizes */
+    --font-size-8xl: 1.688rem;
+    --font-size-4xl: 1.438rem;
+    --font-size-11xl: 1.875rem;
+    
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-firebrick: #b91b1b;
+    --color-red: #ef1d1d;
+    --color-turquoise: #18e8db;
+    --color-mediumblue: #3518e8;
+    --color-gray: #8b8484;
+    
+    /* Border radiuses */
+    --br-36xl: 55px;
+    --br-11xl: 30px;
+    
+}

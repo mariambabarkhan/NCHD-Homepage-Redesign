@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, width=device-width">
+
+
+	<link rel="stylesheet" href="./global.css" />
+	<link rel="stylesheet" href="./index.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+
+
+
+</head>
+
+<body>
+
+	<div class="nchd-home-page">
+		<div class="footer">
+			<div class="titlebar">
+			</div>
+			<div class="follow-us">Follow Us:</div>
+			<div class="how-can-we">How Can We Help?</div>
+			<div class="social-media">
+				<img class="twitter-icon" alt="" src="twitter.png">
+
+				<img class="link-icon" alt="" src="link.png">
+
+				<img class="ig-icon" alt="" src="ig.png">
+
+				<img class="fb-icon" alt="" src="fb.png">
+
+			</div>
+			<div class="phone">
+				<div class="div">+92 (51) 9216200</div>
+				<img class="phone-icon" alt="" src="phone.png">
+
+			</div>
+			<div class="donatebtn">
+				<div class="donatebtn-child">
+				</div>
+				<div class="donate-now">
+					<p class="donate">Donate </p>
+					<p class="donate">Now</p>
+				</div>
+			</div>
+			<img class="pehla-qadam-icon" alt="" src="pehla_qadam.png">
+
+			<div class="national-commission-for">National Commission for Human Development (NCHD) was established by the
+				Government of Pakistan in 2002 as a statutory autonomous federal body, mandated with the role to support
+				and augment human development efforts in Pakistan. NCHD is registered under Ordinance No. XXIX of 2002.
+			</div>
+		</div>
+		<div class="extra-info">
+			<div class="disability">
+			</div>
+			<div class="disability-quota">Disability QUota</div>
+			<div class="ops">
+			</div>
+			<div class="operations">Operations</div>
+			<div class="feeder-schools">
+			</div>
+			<div class="feeder-schools1">Feeder Schools</div>
+		</div>
+		<div class="latest-news">
+			<div class="adult-literacy-vid">
+			</div>
+			<div class="adult-literacy-vid1">
+			</div>
+			<div class="adult-literacy-vid2">
+			</div>
+			<div class="adult-literacy-vid3">
+			</div>
+			<div class="adult-literacy-vid4">
+			</div>
+			<div class="adult-literacy-vid5">
+			</div>
+			<div class="latest-news1">Latest News</div>
+			<div class="latest-news-child">
+			</div>
+			<div class="latest-news-item">
+			</div>
+			<div class="viewall">
+				<div class="viewall-child">
+				</div>
+				<div class="view-all">View All</div>
+			</div>
+		</div>
+		<div class="activities">
+			<div class="adult-literacy-vid6">
+			</div>
+			<div class="adult-literacy-video">Adult Literacy Video</div>
+			<div class="flood-relief">
+			</div>
+			<div class="flood-relief-activities">Flood Relief Activities</div>
+			<div class="flood-vid">
+			</div>
+			<div class="flood-relief-vidwo">Flood Relief Vidwo</div>
+		</div>
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  <div class="numbertext">1 / 3</div>
+			  <img src="image1.png" style="width:100%">
+			  <div class="text">Caption Text</div>
+			</div>
+			
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 3</div>
+			  <img src="image2.jpg" style="width:100%">
+			  <div class="text">Caption Two</div>
+			</div>
+			
+			<div class="mySlides fade">
+			  <div class="numbertext">3 / 3</div>
+			  <img src="image3.webp" style="width:100%">
+			  <div class="text">Caption Three</div>
+			</div>
+			
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+			
+			</div>
+			<br>
+			
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+			
+			<script>
+			let slideIndex = 1;
+			showSlides(slideIndex);
+			
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+			
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+			
+			function showSlides(n) {
+			  let i;
+			  let slides = document.getElementsByClassName("mySlides");
+			  let dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+			</script>
+			
+		<div class="navbar">
+			<div class="navbarbg">
+			</div>
+			<div class="nav">
+				<div class="about-us">About Us</div>
+				<div class="programs">Programs</div>
+				<div class="news">News</div>
+				<div class="reports">Reports</div>
+				<div class="partners">Partners</div>
+				<div class="opportunities">Opportunities</div>
+				<div class="faqs">FAQs</div>
+				<div class="contact-us">Contact Us</div>
+				<div class="home">Home</div>
+				<img class="srchbtn-1-icon" alt="" src="srchbtn.png">
+
+			</div>
+			<img class="nchd-logo-icon" alt="" src="nchd_logo.png">
+
+		</div>
+	</div>
+
+
+
+
+</body>
+
+</html>
