@@ -6,16 +6,19 @@
     width: 90rem;
     height: 17rem;
 }
+
 .follow-us {
     position: absolute;
     top: 2.813rem;
-    left: 4.625rem;
+    left: 2.625rem;
 }
+
 .how-can-we {
     position: absolute;
     top: 3.688rem;
-    left: 68.438rem;
+    left: 65.438rem;
 }
+
 .twitter-icon {
     position: absolute;
     top: 4.269rem;
@@ -24,6 +27,7 @@
     height: 3.631rem;
     object-fit: cover;
 }
+
 .link-icon {
     position: absolute;
     top: 4.269rem;
@@ -32,6 +36,7 @@
     height: 3.631rem;
     object-fit: cover;
 }
+
 .ig-icon {
     position: absolute;
     top: 0rem;
@@ -40,6 +45,7 @@
     height: 3.631rem;
     object-fit: cover;
 }
+
 .fb-icon {
     position: absolute;
     top: 0rem;
@@ -48,29 +54,33 @@
     height: 3.631rem;
     object-fit: cover;
 }
+
 .social-media {
     position: absolute;
     top: 6.188rem;
-    left: 5.063rem;
+    left: 3.063rem;
     width: 8.1rem;
     height: 7.9rem;
 }
+
 .div {
     position: absolute;
     top: 0.75rem;
-    left: 3.75rem;
+    left: -1.5rem;
     display: inline-block;
     width: 16.063rem;
     height: 3.544rem;
 }
+
 .phone-icon {
     position: absolute;
     top: 0rem;
-    left: 0rem;
+    left: -5rem;
     width: 3.75rem;
     height: 3.45rem;
     object-fit: contain;
 }
+
 .phone {
     position: absolute;
     top: 6.375rem;
@@ -79,6 +89,7 @@
     height: 4.294rem;
     text-align: left;
 }
+
 .donatebtn-child {
     position: absolute;
     top: calc(50% - 36px);
@@ -88,9 +99,11 @@
     width: 10.5rem;
     height: 4.5rem;
 }
+
 .donate {
     margin: 0;
 }
+
 .donate-now {
     position: absolute;
     top: calc(50% - 28.48px);
@@ -99,89 +112,45 @@
     width: 7.763rem;
     height: 3.763rem;
 }
+
 .donatebtn {
     position: absolute;
-    top: calc(50% + 24px);
-    left: calc(50% - 81px);
+    top: calc(60% + 94px);
+    left: calc(50% - 8rem);
     width: 10.5rem;
     height: 4.5rem;
     font-size: var(--font-size-4xl);
     color: var(--color-white);
 }
+
 .pehla-qadam-icon {
     position: absolute;
     top: 10.5rem;
-    left: 71.5rem;
+    left: 68rem;
     width: 10.875rem;
     height: 3.438rem;
     object-fit: cover;
 }
+
 .national-commission-for {
     position: absolute;
     top: 2.813rem;
-    left: 33.438rem;
+    left: 30.438rem;
     font-size: 0.875rem;
     display: inline-block;
     width: 23.563rem;
     height: 5.313rem;
 }
+
 .footer {
     position: absolute;
-    top: 128.625rem;
+    top: 108rem;
     left: -0.187rem;
     width: 90rem;
-    height: 17rem;
+    height: 8rem;
     font-size: var(--font-size-11xl);
 }
-.disability {
-    position: absolute;
-    top: 0rem;
-    left: 0rem;
-    border-radius: var(--br-36xl);
-    background-color: var(--color-gray);
-    width: 24.688rem;
-    height: 22.5rem;
-}
-.disability-quota {
-    position: absolute;
-    top: 12.875rem;
-    left: 7.063rem;
-}
-.ops {
-    position: absolute;
-    top: 0rem;
-    left: 56.5rem;
-    border-radius: var(--br-36xl);
-    background-color: var(--color-gray);
-    width: 24.688rem;
-    height: 22.5rem;
-}
-.operations {
-    position: absolute;
-    top: 14.25rem;
-    left: 62.625rem;
-}
-.feeder-schools {
-    position: absolute;
-    top: 0rem;
-    left: 28.25rem;
-    border-radius: var(--br-36xl);
-    background-color: var(--color-gray);
-    width: 24.688rem;
-    height: 22.5rem;
-}
-.feeder-schools1 {
-    position: absolute;
-    top: 10.688rem;
-    left: 31.813rem;
-}
-.extra-info {
-    position: absolute;
-    top: 103.813rem;
-    left: 4.438rem;
-    width: 81.188rem;
-    height: 22.5rem;
-}
+
 .adult-literacy-vid {
     position: absolute;
     top: 5.688rem;
@@ -190,6 +159,7 @@
     width: 10.188rem;
     height: 8.063rem;
 }
+
 .adult-literacy-vid1 {
     position: absolute;
     top: 5.688rem;
@@ -198,7 +168,11 @@
     background-color: var(--color-mediumblue);
     width: 68.688rem;
     height: 8.063rem;
+    text-align: justify;
+    font-size: 1.25rem;
+    padding: 0.5%;
 }
+
 .adult-literacy-vid2 {
     position: absolute;
     top: 28.313rem;
@@ -207,7 +181,11 @@
     background-color: var(--color-mediumblue);
     width: 68.688rem;
     height: 8.063rem;
+    text-align: justify;
+    font-size: 1.25rem;
+    padding: 0.5%;
 }
+
 .adult-literacy-vid3 {
     position: absolute;
     top: 17rem;
@@ -216,7 +194,11 @@
     background-color: var(--color-mediumblue);
     width: 68.688rem;
     height: 8.063rem;
+    text-align: justify;
+    font-size: 1.25rem;
+    padding: 0.5%;
 }
+
 .adult-literacy-vid4 {
     position: absolute;
     top: 28.313rem;
@@ -225,6 +207,7 @@
     width: 10.188rem;
     height: 8.063rem;
 }
+
 .adult-literacy-vid5 {
     position: absolute;
     top: 17rem;
@@ -233,12 +216,14 @@
     width: 10.188rem;
     height: 8.063rem;
 }
+
 .latest-news1 {
     position: absolute;
     top: 0rem;
     left: 32.063rem;
     text-decoration: underline;
 }
+
 .latest-news-child {
     position: absolute;
     top: 15.406rem;
@@ -248,6 +233,7 @@
     width: 81.25rem;
     height: 0.063rem;
 }
+
 .latest-news-item {
     position: absolute;
     top: 26.781rem;
@@ -257,6 +243,7 @@
     width: 81.25rem;
     height: 0.063rem;
 }
+
 .viewall-child {
     position: absolute;
     top: calc(50% - 17.5px);
@@ -265,6 +252,7 @@
     width: 8.438rem;
     height: 2.188rem;
 }
+
 .view-all {
     position: absolute;
     top: calc(50% - 13.5px);
@@ -275,6 +263,7 @@
     width: 6.188rem;
     height: 1.75rem;
 }
+
 .viewall {
     position: absolute;
     top: calc(50% + 285.5px);
@@ -284,14 +273,16 @@
     font-size: var(--font-size-4xl);
     color: var(--color-white);
 }
+
 .latest-news {
     position: absolute;
-    top: 62.375rem;
-    left: 4.25rem;
+    top: 63.375rem;
+    left: 1.25rem;
     width: 81.375rem;
     height: 40.063rem;
     font-size: 2.938rem;
 }
+
 .adult-literacy-vid6 {
     position: absolute;
     top: 0rem;
@@ -301,11 +292,13 @@
     width: 24.688rem;
     height: 22.5rem;
 }
+
 .adult-literacy-video {
     position: absolute;
     top: 12.875rem;
     left: 5.625rem;
 }
+
 .flood-relief {
     position: absolute;
     top: 0rem;
@@ -315,11 +308,13 @@
     width: 24.688rem;
     height: 22.5rem;
 }
+
 .flood-relief-activities {
     position: absolute;
     top: 14.25rem;
     left: 59.063rem;
 }
+
 .flood-vid {
     position: absolute;
     top: 0rem;
@@ -329,19 +324,22 @@
     width: 24.688rem;
     height: 22.5rem;
 }
+
 .flood-relief-vidwo {
     position: absolute;
     top: 10.688rem;
     left: 30.75rem;
 }
+
 .activities {
     position: absolute;
     top: 38.688rem;
-    left: 4.438rem;
+    left: 1.438rem;
     width: 81.188rem;
     height: 22.5rem;
 }
-.photo-carousel{
+
+.photo-carousel {
     position: absolute;
     top: 9.688rem;
     left: 0rem;
@@ -351,74 +349,79 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .navbarbg {
     position: absolute;
     top: 0rem;
     left: 0rem;
     background-color: #e7740a;
-    width: 90rem;
-    height: 9.688rem;
+    width: 84.25rem;
+    height: 3rem;
 }
+
 .about-us {
     position: absolute;
     top: 0.875rem;
     left: 5.875rem;
 }
+
 .programs {
     position: absolute;
     top: 0.875rem;
     left: 14.438rem;
 }
+
 .news {
     position: absolute;
     top: 0.875rem;
     left: 23.25rem;
 }
+
 .reports {
     position: absolute;
     top: 0.875rem;
     left: 28.938rem;
 }
+
 .partners {
     position: absolute;
     top: 0.875rem;
     left: 36.375rem;
 }
+
 .opportunities {
     position: absolute;
     top: 0.875rem;
     left: 44.313rem;
 }
+
 .faqs {
     position: absolute;
     top: 0.875rem;
     left: 56.375rem;
 }
+
 .contact-us {
     position: absolute;
     top: 0.875rem;
     left: 61.625rem;
 }
+
 .home {
     position: absolute;
     top: 0.875rem;
     left: 0rem;
 }
+
 .srchbtn-1-icon {
     position: absolute;
-    top: 0rem;
-    left: 71.75rem;
+    top: 0.5rem;
+    right: 3rem;
     width: 3.75rem;
     height: 3.75rem;
     object-fit: cover;
 }
-.nav {
-    position: absolute;
-    top: 2.938rem;
-    left: 10.125rem;
-    width: 75.5rem;
-    height: 3.75rem;
-}
+
 .nchd-logo-icon {
     position: absolute;
     top: 0rem;
@@ -427,113 +430,259 @@
     height: 9.688rem;
     object-fit: cover;
 }
+
 .navbar {
     position: absolute;
     top: 0rem;
     left: 0rem;
-    width: 90rem;
-    height: 9.688rem;
+    width: 100%;
+    height: 6rem;
     text-align: left;
-    font-size: var(--font-size-8xl);
+    font-size: var(--font-size-5xl);
     color: var(--color-white);
 }
+
+.navbarbg {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    background-color: #28a745;
+    width: 100%;
+    height: 6rem;
+}
+
+.nav {
+    position: absolute;
+    top: 2.3rem;
+    left: 26.125rem;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left:4rem;
+    width:max-content;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.svg-icon {
+    fill: white; /* Change SVG color to white */
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+    right: -3rem;
+    top:-0.5rem;
+    position: absolute;
+}
+
+.nchd-logo-icon {
+    position: absolute;
+    top: 0rem;
+    left: 0.313rem;
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+}
+
 .nchd-home-page {
     width: 100%;
     position: relative;
     background-color: var(--color-white);
-    height: 145.625rem;
-    overflow: hidden;
+    height: 123.625rem;
+    overflow:hidden;
     text-align: center;
     font-size: var(--font-size-4xl);
     color: var(--color-black);
     font-family: var(--font-inter);
 }
-* {box-sizing: border-box}
-.mySlides {display: none}
-img {vertical-align: middle;}
 
-/* Slideshow container */
+* {
+    box-sizing: border-box
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+.photo-carousel {
+    position: absolute;
+    top: 9.688rem;
+    left: 0rem;
+    width: 90rem;
+    height: 20.875rem;
+}
+
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    width: 90rem;
+    position: absolute;
+    margin: auto;
+    margin-top: 6rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: grey;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.mySlides {
+    display: none;
+    position: relative;
 }
 
-/* Position the "next button" to the right */
+.mySlides img {
+    width: 100%;
+    height: 480px;
+    /* Adjust height as needed */
+    object-fit: cover;
+}
+
+.prev,
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    user-select: none;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev {
+    left: 0;
 }
 
-/* Caption text */
+.next {
+    left: 81rem;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 100%;
+}
+
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: justify;
+    left: 38.5rem;
 }
 
-/* Number text (1/3 etc) */
+.slideshow-container .mySlides h1 {
+    position: absolute;
+    top: 30%;
+    left: 10rem;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: bold;
+}
+
+.constant-text {
+    position: absolute;
+    top: 50%;
+    left: 10rem;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.active,
+.dot:hover {
+    background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
+
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
 }
+
+.video-container {
+    position: relative;
+    width: 100%;
+    /* Adjust width as needed */
+    height: 0;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio (divide 9 by 16 = 0.5625) */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pdf-container {
+    width: 100%;
+    height: 600px;
+    /* Adjust height as needed */
+}
+.video-caption {
+    text-align: justify;
+    font-size: 1rem;
+    position:absolute;
+    top: 110%;
+  }
