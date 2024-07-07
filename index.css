@@ -2,7 +2,7 @@
     position: absolute;
     top: 0rem;
     left: 0rem;
-    background-color: #fff59d;
+    background-color: #a0f0a5;
     width: 90rem;
     height: 17rem;
 }
@@ -10,13 +10,15 @@
 .follow-us {
     position: absolute;
     top: 2.813rem;
-    left: 2.625rem;
+    left: 4.625rem;
+    color: rgb(82, 38, 3);
 }
 
 .how-can-we {
     position: absolute;
     top: 3.688rem;
-    left: 65.438rem;
+    left: 66.438rem;
+    color: rgb(82, 38, 3);
 }
 
 .twitter-icon {
@@ -58,7 +60,7 @@
 .social-media {
     position: absolute;
     top: 6.188rem;
-    left: 3.063rem;
+    left: 5.063rem;
     width: 8.1rem;
     height: 7.9rem;
 }
@@ -66,16 +68,17 @@
 .div {
     position: absolute;
     top: 0.75rem;
-    left: -1.5rem;
+    left: 1.5rem;
     display: inline-block;
     width: 16.063rem;
     height: 3.544rem;
+    color: rgb(82, 38, 3);
 }
 
 .phone-icon {
     position: absolute;
     top: 0rem;
-    left: -5rem;
+    left: -3rem;
     width: 3.75rem;
     height: 3.45rem;
     object-fit: contain;
@@ -93,7 +96,7 @@
 .donatebtn-child {
     position: absolute;
     top: calc(50% - 36px);
-    left: calc(50% - 84px);
+    left: calc(80% - 82px);
     border-radius: 45px;
     background-color: var(--color-red);
     width: 10.5rem;
@@ -107,7 +110,7 @@
 .donate-now {
     position: absolute;
     top: calc(50% - 28.48px);
-    left: calc(50% - 60.63px);
+    left: calc(80% - 60.63px);
     display: inline-block;
     width: 7.763rem;
     height: 3.763rem;
@@ -116,7 +119,7 @@
 .donatebtn {
     position: absolute;
     top: calc(60% + 94px);
-    left: calc(50% - 8rem);
+    left: calc(50% - 10rem);
     width: 10.5rem;
     height: 4.5rem;
     font-size: var(--font-size-4xl);
@@ -126,7 +129,7 @@
 .pehla-qadam-icon {
     position: absolute;
     top: 10.5rem;
-    left: 68rem;
+    left: 70rem;
     width: 10.875rem;
     height: 3.438rem;
     object-fit: cover;
@@ -135,11 +138,12 @@
 .national-commission-for {
     position: absolute;
     top: 2.813rem;
-    left: 30.438rem;
+    left: 32.438rem;
     font-size: 0.875rem;
     display: inline-block;
     width: 23.563rem;
     height: 5.313rem;
+    color: rgb(82, 38, 3);
 }
 
 .footer {
@@ -166,11 +170,14 @@
     left: 12.688rem;
     border-radius: var(--br-11xl);
     background-color: var(--color-mediumblue);
+    color:#aeffb4;
     width: 68.688rem;
     height: 8.063rem;
     text-align: justify;
-    font-size: 1.25rem;
-    padding: 0.5%;
+    font-size: 1.1rem;
+    padding: 1%;
+    box-shadow: 2px 2px 10px #a0f0a5,
+    -2px -2px 10px #1d5320;
 }
 
 .adult-literacy-vid2 {
@@ -182,8 +189,11 @@
     width: 68.688rem;
     height: 8.063rem;
     text-align: justify;
-    font-size: 1.25rem;
-    padding: 0.5%;
+    font-size: 1.1rem;
+    padding: 1%;
+    color: #aeffb4;
+    box-shadow: 2px 2px 10px #a0f0a5,
+    -2px -2px 10px #1d5320;
 }
 
 .adult-literacy-vid3 {
@@ -195,8 +205,11 @@
     width: 68.688rem;
     height: 8.063rem;
     text-align: justify;
-    font-size: 1.25rem;
-    padding: 0.5%;
+    font-size: 1.1rem;
+    padding: 1%;
+    color: #aeffb4;
+    box-shadow: 2px 2px 10px #a0f0a5,
+    -2px -2px 10px #1d5320;
 }
 
 .adult-literacy-vid4 {
@@ -228,7 +241,7 @@
     position: absolute;
     top: 15.406rem;
     left: 0.156rem;
-    border-top: 1px solid var(--color-black);
+    border-top: 1px solid rgb(183, 255, 183);
     box-sizing: border-box;
     width: 81.25rem;
     height: 0.063rem;
@@ -238,7 +251,7 @@
     position: absolute;
     top: 26.781rem;
     left: -0.031rem;
-    border-top: 1px solid var(--color-black);
+    border-top: 1px solid rgb(183, 255, 183);
     box-sizing: border-box;
     width: 81.25rem;
     height: 0.063rem;
@@ -246,16 +259,18 @@
 
 .viewall-child {
     position: absolute;
-    top: calc(50% - 17.5px);
+    top: calc(50% + 10.5px);
     left: calc(50% - 67.5px);
     background-color: var(--color-red);
     width: 8.438rem;
     height: 2.188rem;
+    border-radius: 45px;
+
 }
 
 .view-all {
     position: absolute;
-    top: calc(50% - 13.5px);
+    top: calc(50% + 13.5px);
     left: calc(50% - 49.5px);
     display: flex;
     align-items: center;
@@ -267,30 +282,35 @@
 .viewall {
     position: absolute;
     top: calc(50% + 285.5px);
-    left: calc(50% - 55px);
+    left: calc(50% - 85px);
     width: 8.438rem;
     height: 2.188rem;
     font-size: var(--font-size-4xl);
     color: var(--color-white);
+    border-radius: 25%;
 }
 
 .latest-news {
     position: absolute;
     top: 63.375rem;
-    left: 1.25rem;
+    left: 3.25rem;
     width: 81.375rem;
     height: 40.063rem;
     font-size: 2.938rem;
+    color: rgb(178, 255, 178);
 }
 
 .adult-literacy-vid6 {
     position: absolute;
     top: 0rem;
     left: 0rem;
-    border-radius: var(--br-36xl);
+    border-radius: 8px;
     background-color: var(--color-firebrick);
     width: 24.688rem;
-    height: 22.5rem;
+    height: 23rem;
+    padding: 1%;
+    box-shadow: 2px 2px 10px #a0f0a5,
+    -2px -2px 10px #1d5320;
 }
 
 .adult-literacy-video {
@@ -303,10 +323,14 @@
     position: absolute;
     top: 0rem;
     left: 56.5rem;
-    border-radius: var(--br-36xl);
+    /* border-radius: var(--br-36xl); */
+    border-radius: 8px;
     background-color: var(--color-firebrick);
     width: 24.688rem;
-    height: 22.5rem;
+    height: 23.5rem;
+    padding: 1%;
+    box-shadow: 2px 2px 10px #a0f0a5,
+                -2px -2px 10px #1d5320;
 }
 
 .flood-relief-activities {
@@ -322,7 +346,7 @@
     border-radius: var(--br-36xl);
     background-color: var(--color-firebrick);
     width: 24.688rem;
-    height: 22.5rem;
+    height: 23.5rem;
 }
 
 .flood-relief-vidwo {
@@ -334,92 +358,9 @@
 .activities {
     position: absolute;
     top: 38.688rem;
-    left: 1.438rem;
+    left: 3.438rem;
     width: 81.188rem;
     height: 22.5rem;
-}
-
-.photo-carousel {
-    position: absolute;
-    top: 9.688rem;
-    left: 0rem;
-    width: 90rem;
-    height: 26.875rem;
-    background-image: url("photos_ph.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.navbarbg {
-    position: absolute;
-    top: 0rem;
-    left: 0rem;
-    background-color: #e7740a;
-    width: 84.25rem;
-    height: 3rem;
-}
-
-.about-us {
-    position: absolute;
-    top: 0.875rem;
-    left: 5.875rem;
-}
-
-.programs {
-    position: absolute;
-    top: 0.875rem;
-    left: 14.438rem;
-}
-
-.news {
-    position: absolute;
-    top: 0.875rem;
-    left: 23.25rem;
-}
-
-.reports {
-    position: absolute;
-    top: 0.875rem;
-    left: 28.938rem;
-}
-
-.partners {
-    position: absolute;
-    top: 0.875rem;
-    left: 36.375rem;
-}
-
-.opportunities {
-    position: absolute;
-    top: 0.875rem;
-    left: 44.313rem;
-}
-
-.faqs {
-    position: absolute;
-    top: 0.875rem;
-    left: 56.375rem;
-}
-
-.contact-us {
-    position: absolute;
-    top: 0.875rem;
-    left: 61.625rem;
-}
-
-.home {
-    position: absolute;
-    top: 0.875rem;
-    left: 0rem;
-}
-
-.srchbtn-1-icon {
-    position: absolute;
-    top: 0.5rem;
-    right: 3rem;
-    width: 3.75rem;
-    height: 3.75rem;
-    object-fit: cover;
 }
 
 .nchd-logo-icon {
@@ -446,7 +387,7 @@
     position: absolute;
     top: 0rem;
     left: 0rem;
-    background-color: #28a745;
+    background-color: #a0f0a5;
     width: 100%;
     height: 6rem;
 }
@@ -464,13 +405,13 @@
     display: flex;
     gap: 20px;
     position: absolute;
-    left:4rem;
+    left:-1rem;
     width:max-content;
 }
 
 .nav ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(99, 42, 5);
     font-size: 1.25rem;
 }
 
@@ -479,7 +420,7 @@
 }
 
 .svg-icon {
-    fill: white; /* Change SVG color to white */
+    fill: rgb(99, 42, 5); /* Change SVG color to white */
     width: 40px; /* Adjust the size as needed */
     height: 40px;
     right: -3rem;
@@ -499,12 +440,12 @@
 .nchd-home-page {
     width: 100%;
     position: relative;
-    background-color: var(--color-white);
+    background-color: #0d2504;
     height: 123.625rem;
     overflow:hidden;
     text-align: center;
     font-size: var(--font-size-4xl);
-    color: var(--color-black);
+    color: white;
     font-family: var(--font-inter);
 }
 
@@ -518,14 +459,6 @@
 
 img {
     vertical-align: middle;
-}
-
-.photo-carousel {
-    position: absolute;
-    top: 9.688rem;
-    left: 0rem;
-    width: 90rem;
-    height: 20.875rem;
 }
 
 .slideshow-container {
@@ -565,17 +498,16 @@ img {
 }
 
 .prev {
-    left: 0;
+    left: 0.75rem;
 }
 
 .next {
-    left: 81rem;
+    left: 85rem;
 }
 
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 100%;
 }
 
 .text {
@@ -677,12 +609,50 @@ img {
 
 .pdf-container {
     width: 100%;
-    height: 600px;
+    height: 655px;
     /* Adjust height as needed */
 }
 .video-caption {
     text-align: justify;
     font-size: 1rem;
     position:absolute;
-    top: 110%;
+    top: 106%;
   }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    height:10rem;
+}
+
+.text h2 {
+    font-size: 36px;
+    margin: 0;
+    position: relative;
+    left: -9.75rem;
+    top:-1rem;
+}
+
+.text p {
+    font-size: 18px;
+    margin: 10px 0;
+    position:relative;
+    left:-2rem;
+    top:-1.75rem;
+}
+.btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    position:relative;
+    left: -1rem;
+    top:-1rem;
+}

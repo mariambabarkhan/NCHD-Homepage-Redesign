@@ -2,13 +2,16 @@
 body {
     margin: 0;
     line-height: normal;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    background-color: #000;
 }
 
 
 :root {
     
     /* fonts */
-    --font-inter: 'Inter', sans-serif;
+    --font-inter: 'Montserrat', sans-serif;
     
     /* font sizes */
     --font-size-8xl: 1.688rem;
@@ -19,9 +22,9 @@ body {
     --color-white: #fff;
     --color-black: #000;
     --color-firebrick: #ffffff00;
-    --color-red: #ef1d1d;
+    --color-red: #944b2e;
     --color-turquoise: #18e8db;
-    --color-mediumblue: #3418e844;
+    --color-mediumblue: transparent;
     --color-gray: #8b8484;
     
     /* Border radiuses */
